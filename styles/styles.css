@@ -1,0 +1,164 @@
+/* Global CSS */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+*:focus {
+	outline: none !important;
+}
+
+/* Style for global body */
+
+body {
+	font-family: 'Montserrat';
+	font-weight: 400;
+	line-height: 1.7;
+	color: #343a40;
+	padding: 3rem;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	padding-top: 80px;
+	position: relative;
+	min-height: 100vh;
+}
+/* Style for navigaton */
+
+.navigation {
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 20px;
+	height: 80px;
+	background-color: #fff;
+	box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.25);
+}
+/* Style for navigaton logo container */
+.navigation__logo {
+	margin-left: 200px;
+	flex: 0.4;
+}
+/* Style for navigaton logo image  */
+.navigation__logo > a > img {
+	height: 25px;
+	width: 120px;
+}
+
+/* Style for navigation menu */
+.navigation__menu {
+	display: flex;
+	flex: 0.6;
+	width: 100%;
+	justify-content: space-between;
+	cursor: pointer;
+	margin-right: 70px;
+	text-decoration: none !important;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+/* Style for navigation menu anchor tags */
+
+.navigation__menu a {
+	text-decoration: none;
+}
+
+/* Style for active state */
+.active {
+	color: #fd3e58;
+}
+
+/* Style for hover state */
+.navigation__menu a:hover {
+	color: #fd3e58;
+}
+
+/* Style for button */
+.btn {
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 15px 40px;
+	display: inline-block;
+	margin-top: 30px;
+	border-radius: 100px;
+	transition: all 0.2s;
+	background-color: #fd3e58;
+	color: white;
+	border: none;
+}
+
+/* Style for hover state for button  */
+.btn:hover {
+	/* button goes up by 3 px */
+	transform: translateY(-3px);
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for active state for button */
+.btn:active {
+	/* button goes down by 1px  creating a pressed effect*/
+	transform: translateY(-1px);
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for a tag of button */
+.btn a {
+	text-decoration: none;
+	color: white;
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.6;
+	letter-spacing: 2px;
+}
+/* Style for footer */
+
+.footer {
+	background-color: #fd3e58;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 65px;
+	position: absolute;
+	bottom: 0;
+}
+
+/* Style for footer text */
+.footer__text {
+	color: #343a40;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bolder;
+	line-height: 1.6;
+	letter-spacing: 1.7px;
+}
+/* Style for footer logo */
+.footer__logo {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+/* Style for footer logo 1 */
+.footer__logo--1 > a > img {
+	height: 35px;
+	width: 35px;
+	margin-left: 30px;
+}
+/* Style for footer logo 2 */
+.footer__logo--2 > a > img {
+	height: 35px;
+	width: 35px;
+	margin-left: 30px;
+}
+/* Style for footer logo 3 */
+.footer__logo--3 > a > img {
+	height: 35px;
+	width: 35px;
+	margin-left: 30px;
+}

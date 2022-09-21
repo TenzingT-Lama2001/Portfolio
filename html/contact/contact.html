@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta tags for the website -->
+		<meta charset="UTF-8" />
+		<meta name="description" content="Portfolio websites" />
+		<meta name="keywords" content="HTML, CSS, JavaScript, Contact " />
+		<meta name="author" content="Tenzing Lama" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title of the page -->
+		<title>CONTACT PAGE</title>
+
+		<!-- External CSS for fonts and style -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./contact.css" />
+		<link rel="stylesheet" href="../../styles/styles.css" />
+
+		<!-- Internal CSS -->
+		<style>
+			/* styling label tag */
+			label {
+				display: block;
+				font-size: 14px;
+				color: #343a40;
+				padding: 2px;
+			}
+			/* styling textarea */
+			textarea {
+				width: 400px;
+				height: 160px;
+				margin-bottom: 12px;
+				display: block;
+				font-size: 14px;
+
+				padding: 2px;
+			}
+			/* styling date id */
+			#date {
+				text-align: center;
+				padding: 10px;
+				font-size: 16px;
+				letter-spacing: 0.7px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navigation">
+			<!-- Navigation Logo -->
+			<div class="navigation__logo">
+				<a href="../../index.html">
+					<!-- Logo of Website -->
+					<img src="../../assests/logos/navlogo3.png" />
+				</a>
+			</div>
+			<!-- Navigation menu items -->
+			<div class="navigation__menu">
+				<div>
+					<a href="../../index.html">Home </a>
+				</div>
+				<div>
+					<a href="../blog/blog.html"> Blogs</a>
+				</div>
+				<div>
+					<a href="../cv/cv.html">CV</a>
+				</div>
+				<div>
+					<a href="../research/research.html">Research</a>
+				</div>
+				<div>
+					<a class="active" href="./contact.html"> Contact</a>
+				</div>
+			</div>
+		</nav>
+		<!-- Contact container, contains all the contact form ,buttons,images and dates -->
+		<div class="contact__container">
+			<div class="form__container">
+				<!-- Header of the form -->
+				<div class="form__header">
+					<div class="form__header--1">Let's Connect</div>
+				</div>
+				<!-- Contact Form -->
+				<div class="form">
+					<form name="messageForm" onSubmit="validateForm()">
+						<label>Full Name</label>
+
+						<input name="fullName" type="text" class="inputbox--name" />
+						<label>Email</label>
+
+						<input name="email" type="text" class="inputbox--email" />
+
+						<label class="gender">Gender</label>
+
+						<input
+							name="gender"
+							type="radio"
+							value="Male"
+							checked
+							class="inputbox--gender"
+						/>Male
+						<input
+							name="gender"
+							type="radio"
+							value="Female"
+							class="inputbox--gender"
+						/>
+						Female
+						<label>Message</label>
+						<textarea name="message"></textarea>
+						<button type="submit" class="btn">SEND MESSAGE</button>
+					</form>
+				</div>
+			</div>
+			<!-- Contact Image container -->
+			<div class="contact__img">
+				<!-- Illustration image for contact page -->
+				<img src="../../assests/images/contact.png" alt="" />
+
+				<!-- Date using internal JavaScript -->
+				<div id="date"></div>
+			</div>
+		</div>
+		<!-- Footer of the website -->
+		<div class="footer">
+			<div class="footer__text">Connect with me on</div>
+			<!-- Logo Container -->
+			<div class="footer__logo">
+				<!-- Twitter Logo for footer -->
+				<div class="footer__logo--1">
+					<a href="https://www.twitter.com/">
+						<img src="../../assests/logos/twitter.png" />
+					</a>
+				</div>
+				<!-- Facebook Logo for footer -->
+				<div class="footer__logo--2">
+					<a href="https://www.facebook.com/">
+						<img src="../../assests/logos/facebook.png" />
+					</a>
+				</div>
+				<!-- Github Logo for footer -->
+				<div class="footer__logo--3">
+					<a href="https://github.com/">
+						<img src="../../assests/logos/github.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- Internal Javascript to get current date -->
+		<script>
+			//constant to store the current date
+			const currentDate = new Date().toString();
+
+			//setting the inner html of the id date to currentDate
+			document.getElementById('date').innerHTML = currentDate;
+		</script>
+
+		<!-- External Javasript for form validation -->
+		<script src="../../scripts/validation.js"></script>
+	</body>
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta tags for the website -->
+		<meta charset="UTF-8" />
+		<meta name="description" content="Portfolio websites" />
+		<meta name="keywords" content="HTML, CSS, JavaScript, Home page" />
+		<meta name="author" content="Tenzing Lama" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Title of the page -->
+		<title>My porfoilio website</title>
+
+		<!-- External CSS for fonts and style -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./styles/styles.css" />
+
+		<!-- Internal CSS -->
+		<style>
+			/* Style for home container */
+			.home__container {
+				display: flex;
+				width: 100%;
+				flex-direction: column;
+				align-items: center;
+				margin-bottom: 20px;
+				padding: 15px;
+			}
+
+			/* Style for image inside home container */
+			.home__container--logo > img {
+				height: 280px;
+				width: 280px;
+			}
+
+			/* Style for home introduction container */
+			.home__container--intro {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				line-height: 1.6;
+				letter-spacing: 2px;
+			}
+			/* Style for home introduction text 1 */
+
+			.home__container--intro-1 {
+				font-size: 15px;
+				color: #a8a7ac;
+				font-weight: 100;
+			}
+			/* Style for home introduction text 2 */
+			.home__container--intro-2 {
+				font-size: 40px;
+				font-weight: bolder;
+				color: #343a40;
+			}
+			/* Style for home introduction text 3 */
+			.home__container--intro-3 {
+				font-size: 25px;
+				color: #605454;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navigation">
+			<!-- Navigation Logo -->
+			<div class="navigation__logo">
+				<a href="./index.html">
+					<!-- Logo of Website -->
+					<img src="./assests/logos/navlogo3.png" />
+				</a>
+			</div>
+			<!-- Navigation menu items -->
+			<div class="navigation__menu" id="nav__container">
+				<div>
+					<a class="a active" href="./index.html">Home </a>
+				</div>
+				<div>
+					<a href="./html/blog/blog.html"> Blogs</a>
+				</div>
+				<div>
+					<a href="./html/cv/cv.html">CV</a>
+				</div>
+				<div>
+					<a href="./html/research/research.html">Research</a>
+				</div>
+				<div>
+					<a href="./html/contact/contact.html"> Contact</a>
+				</div>
+			</div>
+		</nav>
+		<!-- Home container contains picture,name,buttons -->
+		<div class="home__container">
+			<!-- Container containing image for home page -->
+			<div class="home__container--logo">
+				<img src="./assests/logos/home.png" />
+			</div>
+			<!-- Introduction for home page -->
+			<div class="home__container--intro">
+				<div class="home__container--intro-1">Hello There</div>
+				<div class="home__container--intro-2">I Am Tenzing</div>
+				<div class="home__container--intro-3">
+					A Student & An Aspiring Developer
+				</div>
+			</div>
+			<!-- Button which links to CV page -->
+			<button class="btn">
+				<a href="./html/cv/cv.html">ABOUT ME</a>
+			</button>
+		</div>
+		<!-- Footer of the website -->
+		<div class="footer">
+			<div class="footer__text">Connect with me on</div>
+			<!-- Logo Container -->
+			<div class="footer__logo">
+				<!-- Twitter Logo for footer -->
+				<div class="footer__logo--1">
+					<a href="https://www.twitter.com/">
+						<img src="./assests/logos/twitter.png" />
+					</a>
+				</div>
+				<!-- Facebook Logo for footer -->
+				<div class="footer__logo--2">
+					<a href="https://www.facebook.com/">
+						<img src="./assests/logos/facebook.png" />
+					</a>
+				</div>
+				<!-- Github Logo for footer -->
+				<div class="footer__logo--3">
+					<a href="https://github.com/">
+						<img src="./assests/logos/github.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

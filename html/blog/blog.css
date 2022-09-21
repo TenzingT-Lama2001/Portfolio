@@ -1,0 +1,84 @@
+/* Style for blog image 1  */
+
+.blog__img--1 > img {
+	height: 650px;
+	width: 1400px;
+	margin-bottom: 20px;
+}
+/* Style for blog paragraph 1 */
+.blog__para--1 {
+	padding: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	line-height: 1.7;
+}
+
+/* Style for blog image 2 */
+.blog__img--2 > img {
+	width: 500px;
+	height: 545px;
+}
+/* Style for blog paragraph 2 */
+.blog__para--2 {
+	padding: 20px;
+	letter-spacing: 1px;
+
+	line-height: 1.7;
+}
+
+/* Style for blog paragraph 3 */
+.blog__para--3 {
+	padding: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	line-height: 1.7;
+}
+/* Style for related blog section */
+
+.related__blogs {
+	padding: 20px;
+}
+
+/* Style for blog cards container  */
+
+.blog__cards {
+	display: flex;
+	padding: 25px;
+}
+
+/* Style for card images */
+
+.card__img > img {
+	width: 100%;
+	height: 260px;
+	object-fit: cover;
+}
+
+/* Style for blog card */
+.blog__card {
+	width: 390px;
+	height: 430px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	box-shadow: -1px 6px 13px -2px rgba(68, 68, 68, 0.75);
+}
+/* Style for blog card 2 */
+
+.blog__card--2 {
+	margin-left: 40px;
+}
+/* Style for blog card 3  */
+.blog__card--3 {
+	margin-left: 40px;
+}
+
+/* Style for card title paragraph tags */
+.card__title > p {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 900;
+	text-align: center;
+	padding: 20px;
+	margin: 10px;
+	letter-spacing: 1px;
+}

@@ -1,0 +1,76 @@
+/* Style for overall container  */
+.contact__container {
+	display: flex;
+
+	justify-content: space-around;
+}
+/* Style for form container  */
+.form__container {
+	margin-left: 150px;
+	flex: 0.8;
+	padding: 20px;
+}
+
+/* Style for form header text  */
+.form__header--1 {
+	font-size: 35px;
+	font-weight: 900;
+	color: #343a40;
+	letter-spacing: 3px;
+	margin-bottom: 10px;
+}
+/* Style for contact image container  */
+.contact__img {
+	padding: 20px;
+	margin-left: 100px;
+}
+/* Style for contact image  */
+.contact__img > img {
+	width: 715px;
+	height: 500px;
+	flex: 0.2;
+}
+/* Style for input box of name,email and textarea  */
+.inputbox--name,
+.inputbox--email,
+textarea {
+	background: rgba(255, 255, 255, 0.1);
+	border: none;
+	border-radius: 4px;
+	font-size: 15px;
+	margin: 0;
+	outline: 0;
+	padding: 10px;
+	width: 100%;
+	background-color: #e8eeef;
+	color: #8a97a0;
+	box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+	margin-bottom: 30px;
+}
+
+/* Style for name input box */
+.inputbox--name {
+	margin-bottom: 10px;
+}
+/* Style for email input box */
+.inputbox--email {
+	margin-bottom: 10px;
+}
+/* Style for gender class/ text */
+.gender {
+	display: inline-block;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	padding: 2px;
+}
+/* Style for radio button */
+.inputbox--gender {
+	margin: 10px;
+	padding: 2px;
+}
+
+/* Style for button (overriding style of styles.css) */
+.btn {
+	margin-top: 0px !important;
+	padding: 10px;
+}

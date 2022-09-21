@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- Meta tags for the website -->
+		<meta charset="UTF-8" />
+		<meta name="description" content="Portfolio websites" />
+		<meta
+			name="keywords"
+			content="HTML, CSS, JavaScript, CV, Curriculum Vitae "
+		/>
+		<meta name="author" content="Tenzing Lama" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Title of the page -->
+		<title>CV PAGE</title>
+
+		<!-- External CSS for fonts and style -->
+		<link
+			href="https://fonts.googleapis.com/css?family=Montserrat"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="../../styles/styles.css" />
+		<link rel="stylesheet" href="./cv.css" />
+
+		<!-- Internal CSS -->
+		<style>
+			/* Style for all the profile contents */
+			.cv-profile {
+				display: flex;
+				justify-content: center;
+				padding: 20px;
+				background-color: #ffde7c;
+				align-items: center;
+				line-height: 1.7;
+				letter-spacing: 0.5px;
+			}
+
+			/* Style for profile image */
+			.cv-profile--img > img {
+				margin-left: -80px;
+				height: 180px;
+				width: 180px;
+				flex: 0.5;
+			}
+
+			/* Style for profile paragraph */
+			.cv-profile--text {
+				flex: 0.5;
+				margin-left: 330px;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- Navigation Bar -->
+		<nav class="navigation">
+			<!-- Navigation Logo -->
+			<div class="navigation__logo">
+				<a href="../../index.html">
+					<!-- Logo of Website -->
+					<img src="../../assests/logos/navlogo3.png" />
+				</a>
+			</div>
+			<!-- Navigation menu items -->
+			<div class="navigation__menu">
+				<div>
+					<a href="../../index.html">Home </a>
+				</div>
+				<div>
+					<a href="../blog/blog.html"> Blogs</a>
+				</div>
+				<div>
+					<a class="active" href="./cv.html">CV</a>
+				</div>
+				<div>
+					<a href="../research/research.html">Research</a>
+				</div>
+				<div>
+					<a href="../contact/contact.html"> Contact</a>
+				</div>
+			</div>
+		</nav>
+
+		<!-- CV container, contains images,profile information,education,hobbies,social media handles,contact information,skills etc -->
+		<div class="cv__container">
+			<div class="cv-profile">
+				<!-- Profile image -->
+				<div class="cv-profile--img">
+					<img src="../../assests/logos/home.png" />
+				</div>
+				<!-- Description about me in short -->
+				<div class="cv-profile--text">
+					<h3 style="line-height: 1.7; letter-spacing: 1px">PROFILE</h3>
+					<p>
+						My name is Tenzing Lama. I am 19 years old and I am passionate about
+						programming. Currently studying in Islington College as a first year
+						enrolled in Bachelors In Information Technology.
+					</p>
+				</div>
+			</div>
+			<!-- Side bar with 3 cards -->
+			<div class="sidebar__container">
+				<div class="cv-sidebar">
+					<!-- Contact card -->
+					<div class="cv-sidebar--contact">
+						<h3>Contact</h3>
+						<p>Address: Boudha, Kathmandu</p>
+						<p>Phone: +9779812345678</p>
+						<p>Email: tenzing.lama36@gmail.com</p>
+						<p>Portfolio : mywebsite.com</p>
+					</div>
+					<!-- Social Media card -->
+					<div class="cv-sidebar--socials">
+						<h3>Social Media</h3>
+						<p>Address: Boudha, Kathmandu</p>
+						<p>Phone: +9779812345678</p>
+						<p>Email: tenzing.lama36@gmail.com</p>
+						<p>Portfolio : mywebsite.com</p>
+					</div>
+					<!-- Hobbies card -->
+					<div class="cv-sidebar--hobbies">
+						<h3>Hobbies</h3>
+						<p>Playing onpne games</p>
+						<p>Reading self-help books</p>
+						<p>Playing football</p>
+						<p>Web designing</p>
+						<p>Hiking</p>
+					</div>
+				</div>
+				<!-- Body of CV Page -->
+				<div class="cv-body">
+					<!-- Name of the schools  -->
+					<div class="cv-body--education">
+						<h3 style="margin-bottom: 20px">EDUCATION</h3>
+						<div class="education">
+							<p class="education__primary">Sambotta High School</p>
+							<p class="education__secondary">Primary school</p>
+						</div>
+
+						<div class="education">
+							<p class="education__primary">Daffodil Public School</p>
+							<p class="education__secondary">
+								Middle school and completed SEE
+							</p>
+						</div>
+
+						<div class="education">
+							<p class="education__primary">Global College Of Management</p>
+							<p class="education__secondary">
+								High school and ompleted +2 studies
+							</p>
+						</div>
+
+						<div class="education">
+							<p class="education__primary">Islington College</p>
+							<p class="education__secondary">
+								Bachelors In Information Technology - 1st Year
+							</p>
+						</div>
+					</div>
+					<!-- List of soft skills -->
+					<div class="cv-body--softskills">
+						<h3 style="margin-bottom: 20px">SOFT SKILLS</h3>
+						<p>Teamwork</p>
+						<p>Problem Solving</p>
+						<p>Decision Making</p>
+						<p>Creative Thinking</p>
+					</div>
+					<!-- List of technical skills in table  -->
+					<div class="cv-body--technicalskills">
+						<h3 style="margin-bottom: 40px">TECHNICAL SKILLS</h3>
+						<div class="cards">
+							<!-- Table to create row and column for image -->
+							<table>
+								<tr>
+									<td>
+										<!-- HTML Logo -->
+										<div class="card">
+											<img src="../../assests/logos/html5new.png" />
+										</div>
+									</td>
+									<td>
+										<!-- CSS Logo -->
+										<div class="card">
+											<img src="../../assests/logos/css.png" alt="" />
+										</div>
+									</td>
+									<td>
+										<!-- Javascript Logo -->
+										<div class="card">
+											<img src="../../assests/logos/js.png" alt="" />
+										</div>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<!-- C Logo -->
+										<div class="card">
+											<img src="../../assests/logos/c1.png" alt="" />
+										</div>
+									</td>
+									<td>
+										<!-- MySql Logo -->
+										<div class="card">
+											<img src="../../assests/logos/mysql.png" alt="" />
+										</div>
+									</td>
+									<td>
+										<!-- Java Logo -->
+										<div class="card">
+											<img src="../../assests/logos/java1.png" alt="" />
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Footer of the website -->
+		<div class="footer">
+			<div class="footer__text">Connect with me on</div>
+			<!-- Logo Container -->
+			<div class="footer__logo">
+				<!-- Twitter Logo for footer -->
+				<div class="footer__logo--1">
+					<a href="https://www.twitter.com/">
+						<img src="../../assests/logos/twitter.png" />
+					</a>
+				</div>
+				<!-- Facebook Logo for footer -->
+				<div class="footer__logo--2">
+					<a href="https://www.facebook.com/">
+						<img src="../../assests/logos/facebook.png" />
+					</a>
+				</div>
+				<!-- Github Logo for footer -->
+				<div class="footer__logo--3">
+					<a href="https://github.com/">
+						<img src="../../assests/logos/github.png" />
+					</a>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

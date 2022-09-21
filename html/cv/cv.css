@@ -1,0 +1,118 @@
+/* Style for sidebar container */
+.sidebar__container {
+	display: flex;
+	margin-left: 40px;
+}
+/* Style for sidebar */
+.cv-sidebar {
+	padding-bottom: 65px;
+	flex: 0.4;
+	padding: 45px;
+	margin-bottom: 65px;
+}
+
+/* Style for sidebar container heading 3 */
+.sidebar__container h3 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 10px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	text-decoration: underline;
+	-webkit-text-decoration-color: #ffde7c;
+	text-decoration-color: #ffde7c;
+}
+
+/* Style for sidebar container p tag  */
+
+.sidebar__container p {
+	font-weight: 500;
+	margin-left: 40px;
+	letter-spacing: 0.7px;
+}
+
+/* Style for contact card */
+.cv-sidebar--contact {
+	letter-spacing: 1px;
+	line-height: 1.7;
+	height: 280px;
+	padding: 45px;
+	margin-bottom: 40px;
+	border-radius: 3px;
+	box-shadow: -1px 6px 13px -2px rgba(68, 68, 68, 0.75);
+}
+/* Style for socials card */
+.cv-sidebar--socials {
+	letter-spacing: 1px;
+	line-height: 1.7;
+	height: 280px;
+	padding: 45px;
+	margin-bottom: 40px;
+	box-shadow: -1px 6px 13px -2px rgba(68, 68, 68, 0.75);
+}
+/* Style for hobbies card */
+.cv-sidebar--hobbies {
+	letter-spacing: 1px;
+	line-height: 1.7;
+	height: 280px;
+	padding: 45px;
+	margin-bottom: 40px;
+	box-shadow: -1px 6px 13px -2px rgba(68, 68, 68, 0.75);
+}
+/* Style for cv body part */
+.cv-body {
+	padding: 25px;
+
+	flex: 0.6;
+	padding-bottom: 65px;
+	margin-left: 20px;
+}
+/* Style for education container */
+.cv-body--education {
+	padding: 15px;
+}
+/* Style for education content */
+.education {
+	margin-bottom: 15px;
+}
+
+/* Style for education p tag  */
+.education__primary {
+	font-weight: bolder !important;
+}
+/* Style for education p tag  */
+.education__secondary {
+	font-size: 16px;
+	color: #605454 !important;
+}
+
+/* Style for softskills container */
+
+.cv-body--softskills {
+	padding: 15px;
+}
+
+/* Style for softskills paragraph  */
+.cv-body--softskills > p {
+	font-weight: bolder !important;
+	margin-bottom: 20px;
+}
+/* Style for technical skills container */
+.cv-body--technicalskills {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Style for card container */
+.cards {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	margin-left: 40px;
+}
+
+/* Style for image of cards */
+.card > img {
+	height: 100px;
+	width: 100px;
+}
